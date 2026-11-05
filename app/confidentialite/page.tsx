@@ -50,8 +50,15 @@ export default function PrivacyPolicy() {
         <H3>Ce que l’app enregistre</H3>
         <p>Ces données sont enregistrées sur ton téléphone uniquement, et chiffrées :</p>
         <List>
-          <li>tes check-ins : comment tu te sens, tes symptômes et leur intensité, les zones de douleur, ton sommeil, tes notes ;</li>
-          <li>tes traitements : nom, dose, fréquence, dates de début et d’arrêt, raison de l’arrêt ;</li>
+          <li>
+            tes check-ins : comment tu te sens, tes symptômes et leur intensité, les zones de douleur, tes règles, ton sommeil et
+            tes réveils nocturnes, tes notes ;
+          </li>
+          <li>
+            tes notes dans la journée : l’heure, tes symptômes et leur intensité, les médicaments pris, tes repas et ce que tu notes
+            d’autre ;
+          </li>
+          <li>tes traitements : nom, doses et leurs changements, fréquence, dates de début et d’arrêt, raison de l’arrêt ;</li>
           <li>ton équipe soignante : nom, spécialité et numéro de téléphone de tes médecins ;</li>
           <li>tes rendez-vous : date, heure, motif, tes questions, ta préparation et tes rappels ;</li>
           <li>les maladies que tu as choisies, si tu l’as fait ;</li>
@@ -86,10 +93,11 @@ export default function PrivacyPolicy() {
         <p>Cela n’arrive que si tu le demandes :</p>
         <List>
           <li>
-            <strong>Résumé pour ton médecin :</strong> un PDF de tes symptômes, de ton humeur et de tes traitements ;
+            <strong>Résumé pour ton médecin :</strong> un PDF de tes symptômes, de ton humeur, de tes nuits, de tes notes dans la
+            journée et de tes traitements ;
           </li>
           <li>
-            <strong>Export :</strong> un fichier tableur (CSV) de tes check-ins ;
+            <strong>Export :</strong> un fichier tableur (CSV) de tes check-ins et de tes notes dans la journée ;
           </li>
           <li>
             <strong>Sauvegarde :</strong> un fichier (JSON) de tout ton journal, à réimporter dans Symio, par exemple sur un nouveau
@@ -104,7 +112,7 @@ export default function PrivacyPolicy() {
 
         <H3>Sauvegardes</H3>
         <p>
-          Les données de santé enregistrées dans Symio sont stockées localement sur ton appareil et ne sont pas incluses dans les sauvegardes iCloud. Tu peux toutefois exporter manuellement tes données au format JSON afin de les conserver et de les réimporter dans l’application, notamment lors d’un changement de téléphone. Tu es responsable de la conservation et de la sécurité du fichier exporté.
+          Les données de santé enregistrées dans Symio sont stockées localement sur ton appareil. Elles ne font partie d’aucune sauvegarde de ton iPhone, ni sur iCloud ni sur un ordinateur, et la clé qui les protège ne quitte jamais ton téléphone. Tu peux toutefois exporter manuellement tes données au format JSON afin de les conserver et de les réimporter dans l’application, notamment lors d’un changement de téléphone. Tu es responsable de la conservation et de la sécurité du fichier exporté.
         </p>
         <p>
           Sur Android, tes données de santé ne sont jamais envoyées sur Google Drive. Elles ne font partie d’aucune sauvegarde de
@@ -174,7 +182,7 @@ export default function PrivacyPolicy() {
       </LegalSection>
 
       <LegalSection id="modifications" title={title("modifications")}>
-        <p>Si cette politique change, nous mettrons à jour la date ci-dessus et nous te le dirons dans l’app.</p>
+        <p>Si cette politique change, nous mettons à jour la date ci-dessus et publions la nouvelle version sur cette page.</p>
       </LegalSection>
 
       <LegalSection id="contact" title={title("contact")}>
