@@ -1,4 +1,4 @@
-import { AppStoreButton } from "@/components/AppStoreButton";
+import { StoreButtons } from "@/components/StoreButtons";
 import { Photo } from "@/components/Photo";
 import { Phone } from "@/components/Screen";
 import { PHOTOS } from "@/lib/site";
@@ -20,7 +20,7 @@ export function Hero() {
           </p>
         </div>
         <div className="hero-enter [--d:160ms]">
-          <AppStoreButton className="mt-9" />
+          <StoreButtons className="mt-9" />
         </div>
       </div>
 
