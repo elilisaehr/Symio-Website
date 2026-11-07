@@ -1,4 +1,4 @@
-import { AppStoreButton } from "@/components/AppStoreButton";
+import { StoreButtons } from "@/components/StoreButtons";
 import { Reveal } from "@/components/Reveal";
 import { Phone } from "@/components/Screen";
 
@@ -12,7 +12,7 @@ export function FinalCta() {
             <span className="block">Commence ce soir.</span>{" "}
             <span className="block">Un tap suffit.</span>
           </h2>
-          <AppStoreButton className="mt-10" />
+          <StoreButtons className="mt-10 justify-center" />
           <div className="mx-auto mt-16 h-[300px] w-[260px] overflow-hidden md:h-[380px] md:w-[320px]">
             <Phone
               name="01-accueil"

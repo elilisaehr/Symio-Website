@@ -52,8 +52,9 @@ export default function LegalNotice() {
 
       <LegalSection id="distribution" title={title("distribution")}>
         <p>
-          L’app Symio est distribuée par l’App Store d’Apple, selon les conditions d’Apple. Apple, le logo Apple, iPhone et App
-          Store sont des marques d’Apple Inc.
+          L’app Symio est distribuée par l’App Store d’Apple et par Google Play, selon les conditions de chacun. Apple, le logo
+          Apple, iPhone et App Store sont des marques d’Apple Inc. Google Play et le logo Google Play sont des marques de Google
+          LLC.
         </p>
       </LegalSection>
 

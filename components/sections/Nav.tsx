@@ -1,4 +1,4 @@
-import { AppStoreButton } from "@/components/AppStoreButton";
+import { StoreButtons } from "@/components/StoreButtons";
 
 const LINKS = [
   { href: "/#fonctionnalites", label: "Fonctionnalités" },
@@ -23,7 +23,7 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <AppStoreButton size="sm" />
+        <StoreButtons size="sm" className="hidden flex-nowrap sm:flex" />
       </nav>
     </header>
   );

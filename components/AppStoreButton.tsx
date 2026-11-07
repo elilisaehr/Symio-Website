@@ -16,7 +16,7 @@ export function AppStoreButton({ size = "md", className = "" }: Props) {
         alt={CTA_LABEL}
         width={120}
         height={40}
-        className={`block w-auto ${size === "md" ? "h-[54px]" : "h-10"}`}
+        className={`block w-auto ${size === "md" ? "h-11 sm:h-[54px]" : "h-10"}`}
       />
     </a>
   );

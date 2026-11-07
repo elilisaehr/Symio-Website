@@ -15,6 +15,15 @@ export const CTA_LABEL = "Télécharger dans l’App Store";
 // (toolbox.marketingtools.apple.com) en gardant le même nom de fichier.
 export const APP_STORE_BADGE = "/badges/app-store-badge.svg";
 
+// Lien Google Play de Symio.
+export const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=ch.symio.app";
+
+// Texte officiel du badge Google en français, aussi utilisé comme texte alternatif.
+export const PLAY_CTA_LABEL = "Disponible sur Google Play";
+
+// Badge officiel Google Play, version française, recadrée sans marge (646 × 192).
+export const PLAY_STORE_BADGE = "/badges/google-play-badge.png";
+
 // Éditeur (particulier, sans inscription au registre du commerce).
 // TODO: à compléter avant publication. Un champ vide affiche « À compléter ».
 export const PUBLISHER = {
