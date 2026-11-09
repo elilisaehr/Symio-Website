@@ -72,8 +72,8 @@ export default function PrivacyPolicy() {
 
         <H3>Ce que l’app ne fait pas</H3>
         <p>
-          Symio n’envoie aucune de ces données sur internet. Il n’y a ni publicité, ni outil de suivi, ni outil d’analyse tiers, ni
-          profilage, ni revente de données.
+          Symio n’envoie aucune de ces données sur internet. Il n’y a ni publicité, ni profilage, ni revente de données. Seules quelques
+          statistiques d’utilisation sont envoyées, sans aucune de ces données (voir « Statistiques d’utilisation »).
         </p>
 
         <H3>Autorisations</H3>
@@ -90,7 +90,7 @@ export default function PrivacyPolicy() {
         <p>Sur Android, Symio cache ton journal dans les apps récentes et bloque les captures d’écran dans l’app.</p>
 
         <H3>Quand des données quittent ton téléphone</H3>
-        <p>Cela n’arrive que si tu le demandes :</p>
+        <p>Tes données de santé ne quittent ton téléphone qu’à ta demande :</p>
         <List>
           <li>
             <strong>Résumé pour ton médecin :</strong> un PDF de tes symptômes, de ton humeur, de tes nuits, de tes notes dans la
@@ -129,6 +129,27 @@ export default function PrivacyPolicy() {
           Sur Android : si tu as accepté de partager les statistiques d’utilisation et les rapports de plantage avec Google dans
           les paramètres de ton téléphone, Google nous transmet des rapports de plantage anonymes et des statistiques globales, par
           exemple le nombre d’installations. Ils ne contiennent aucune donnée de santé.
+        </p>
+
+        <H3>Statistiques d’utilisation</H3>
+        <p>
+          Pour améliorer Symio, l’app envoie à Aptabase, un service de statistiques hébergé dans l’Union européenne, quelques
+          événements : fin de l’introduction, check-in commencé, enregistré ou terminé, 1er, 7e et 30e check-in terminés, note
+          ajoutée dans la journée, ouverture d’une notification, des rapports, des soins ou d’une journée, partage du PDF, export
+          de tes données.
+        </p>
+        <p>
+          Chaque événement s’accompagne de la version de Symio et de celle de ton téléphone. Aptabase en déduit aussi ton pays et
+          ta région grâce à ton adresse IP, qu’il ne conserve pas. Pour compter les utilisateurs, il utilise un identifiant anonyme
+          qui change chaque jour et ne permet pas de te reconnaître d’un jour à l’autre. Ces statistiques sont gardées jusqu’à
+          5 ans.
+        </p>
+        <p>
+          Elles ne contiennent ni ton prénom, ni tes maladies, ni tes symptômes, ni tes traitements, ni rien de ton journal, et
+          aucun identifiant de ton téléphone.
+        </p>
+        <p>
+          Tu peux couper cet envoi à tout moment dans <strong>Profil → Confidentialité et données</strong>.
         </p>
 
         <H3>Durée de conservation et suppression</H3>
